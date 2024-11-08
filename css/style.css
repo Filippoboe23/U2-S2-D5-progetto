@@ -1,0 +1,127 @@
+body {
+  box-sizing: border-box;
+  background-color: #141414;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #b3b3b3;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+.search-icon:hover,
+.notification-icon:hover {
+  color: #ffffff;
+}
+.dropdown-menu {
+  background-color: #141414;
+  border: none;
+}
+.dropdown-menu a {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+.dropdown-menu a:hover {
+  color: #ffffff;
+}
+.dropdown-custom {
+  padding-inline: 1.5rem;
+  font-size: 10px;
+  border: 2px solid rgb(116, 116, 116);
+  border-radius: 2px;
+  background-color: black;
+  color: rgb(171, 171, 171);
+}
+.dropdown-custom:hover {
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+}
+.dropdown-menu {
+  background-color: #141414;
+  border: none;
+}
+.dropdown-menu .dropdown-item {
+  color: #b3b3b3;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: white;
+  background-color: #333;
+}
+.me-3 {
+  font-size: 30px;
+}
+.icon-custom {
+  color: #b3b3b3;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.icon-custom:hover {
+  color: white;
+}
+h2 {
+  font-size: x-large;
+}
+.badge-new-episodes {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.3em 0.6em;
+  border-radius: 0.25rem;
+}
+.image-container {
+  width: 16, 666%;
+  position: relative;
+  overflow: hidden;
+}
+.imgtv {
+  width: 100%;
+}
+footer {
+  margin-top: 5rem;
+  background-color: #141414;
+  color: #757575;
+  padding: 20px 0;
+}
+.footer-container {
+  max-width: 40%;
+  margin: 0 auto;
+  text-align: left;
+}
+.footer-icons i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  cursor: pointer;
+  color: #828282;
+}
+.footer-icons i:hover {
+  color: white;
+}
+.footer-links a {
+  font-size: 8px;
+  display: inline-block;
+  color: #757575;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.footer-links a:hover {
+  color: white;
+}
+.footer-button button {
+  font-size: 8px;
+  border: 1px solid #6a6a6a;
+  color: #6a6a6a;
+  background-color: #141414;
+  padding: 5px 6px;
+  cursor: pointer;
+}
+.footer-button button:hover {
+  color: white;
+  border-color: white;
+}
+.footer-bottom span {
+  font-size: 0.5rem;
+  color: #6a6a6a;
+}
